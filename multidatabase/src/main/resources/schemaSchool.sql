@@ -1,0 +1,13 @@
+
+DROP TABLE IF EXISTS Books;
+
+
+CREATE TABLE Books (
+  id INT AUTO_INCREMENT  PRIMARY KEY,
+  name VARCHAR(250) NOT NULL,
+  lessonName VARCHAR(250) NOT NULL
+  
+ 
+);
+
+
